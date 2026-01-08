@@ -1,39 +1,88 @@
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f2f6ff;
-  text-align: center;
-  margin-top: 80px;
+  background: #f4f6fb;
 }
 
-h2 {
-  color: #1a237e;
+nav {
+  background: #1a237e;
+  padding: 15px;
+  color: white;
+}
+
+nav h3 {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.container {
+  padding: 30px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+table {
+  width: 70%;
+  background: white;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.credit {
+  color: green;
+}
+
+.debit {
+  color: red;
+}
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
 }
 
 button {
   padding: 10px 20px;
-  background-color: #1a73e8;
+  background: #1a73e8;
   color: white;
   border: none;
   cursor: pointer;
 }
-
-button:hover {
-  background-color: #0c47a1;
-}
-.card {
-  background: white;
-  padding: 20px;
-  margin: 20px auto;
-  width: 300px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  border-radius: 8px;
-}
-
-.nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: #1a73e8;
-  font-weight: bold;
-}
-
-
