@@ -7,7 +7,7 @@ This project demonstrates the frontend user interface and workflow of a Banking 
 - Account Dashboard
 - Transaction History
 - Fund Transfer Interface
-- - Frontend demo deployed using GitHub Pages to showcase application flow
+- Frontend demo deployed using GitHub Pages to showcase application flow
 
 
 ## Technologies Used
