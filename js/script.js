@@ -1,3 +1,3 @@
-function showMessage() {
-  alert("Transaction successful (Demo)");
+function transfer() {
+  alert("Transfer successful! (Demo)");
 }
